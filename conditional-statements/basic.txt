@@ -1,0 +1,40 @@
+🎯 Goal:
+Learn how to make decisions in Python
+
+Understand comparison and logical operators
+
+Write conditional logic
+
+Build a small decision-making app
+
+1. ⚖️ Why Conditions?
+You use conditions when your program should react differently based on situations.
+
+✅ Syntax:
+
+if condition:
+    # do something
+elif another_condition:
+    # do something else
+else:
+    # fallback
+
+Python uses indentation (4 spaces) to define blocks. No {} like other languages.
+
+2. 🔍 Comparison Operators
+
+Operator                Meaning	                Example (x = 5)	                Result
+==                      Equal	                x == 5	                        True
+!=	                    Not equal	            x != 3	                        True
+>	                    Greater than	        x > 3	                        True
+<	                    Less than	            x < 10	                        True
+>=	                    Greater or equal	    x >= 5	                        True
+<=	                    Less or equal	        x <= 2	                        False
+
+
+3. 🔗 Logical Operators
+
+Operator            Meaning         Example
+and	                Both true	    x > 2 and x < 10
+or	                Either true	    x > 10 or x < 3
+not	                Opposite	    not(x == 5)
